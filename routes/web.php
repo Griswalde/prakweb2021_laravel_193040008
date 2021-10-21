@@ -26,9 +26,9 @@ Route::get('/', function() {
 Route::get('/about', function() {
     return view('about', [
         "title" => "About",
-        "name" => "Aryogi Aziz",
-        "email" => "aaryogi@gmail.com",
-        "image" => "ryo.jpg"
+        "name" => "yoda",
+        "email" => "agunggriswald158@gmail.com",
+        "image" => "yoda.jpg"
     ]);
 });
 
